@@ -1,4 +1,4 @@
-# Windows Memory Forensics
+# Windows Memory Forensics: ARTIFACTS AND Tools
 - Memory Forensics
 - 休眠檔案(hibernation files)
   - hiberfil.sys 是電腦休眠時，為了能回到休眠前的工作狀態，所存在的一種記憶體暫存檔，所以停用休眠，正常情況下這個檔案就不會存在
@@ -13,6 +13,8 @@
       - https://kb.acronis.com/content/27931?ckattempt=1
       - https://support.sitecore.com/kb?id=kb_article_view&sysparm_article=KB0253710
   - 產生系統崩潰(system crash)的方法: NotMyFault
+  - [WinDbg](WinDbg.md)
+  
 
 # Labs
 - Lab1
