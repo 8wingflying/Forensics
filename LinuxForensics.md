@@ -44,8 +44,12 @@
 - 擷取與成像(Imaging)工具
   - 一般擷取與成像(Imaging)工具：dd |DC3DD| Guymager
   - 記憶體擷取與成像(Imaging)工具:
-    - Acquire Volatile Memory Linux (AVML)
-    - Linux Memory Extractor (LiME) 
+    - AVML(Acquire Volatile Memory Linux)
+      - https://github.com/microsoft/avml
+    - LiME(Linux Memory Extractor)
+      - https://github.com/504ensicsLabs/LiME
+    - Linpmem -- a physical memory acquisition tool for Linux
+      - https://github.com/Velocidex/Linpmem
 - 分析工具：有許多(底下介紹以鑑識用途的Linux為主)
   - SANS SIFT Workstation
   - CAINE Linux
