@@ -6,7 +6,7 @@
   - 如同一般記憶體分析模式
 - pagefiles 與 swapfiles
   - pagefile.sys是系統的分頁檔，作為虛擬記憶體使用，當開啟的程式超過實體記憶體的負荷，便將多的資料暫存在硬碟中，維持正常運作的狀態
-- 行程傾印與系統崩潰
+- 行程傾印(process dump)與系統崩潰(system crash)
   - 產生行程傾印(process dump)的方法:
     - 使用Windows內建的工作管理員(Task Manager)
     - 使用Procdump
