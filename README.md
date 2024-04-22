@@ -4,8 +4,8 @@
   - 數位鑑識類型與流程
 - 電腦鑑識(Computer Forensics)
   - 硬碟與檔案系統(Hard Disks and File Systems)
-  - Windows 系統數位鑑識(Windows Forensics)
-  - Linux 系統數位鑑識(Linux Forensics)
+  - [Windows 系統數位鑑識(Windows Forensics)](WindowsForensics.md)
+  - [Linux 系統數位鑑識(Linux Forensics)](LinuxForensics.md)
 - 記憶體鑑識
   - Windows 記憶體鑑識分析(Memory Forensics)
   - Linux 記憶體鑑識分析(Memory Forensics)
