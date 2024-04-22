@@ -1,6 +1,4 @@
-# Forensics
-
-# 課程章節
+# Forensics 課程章節
 - 基本觀念
   - 數位鑑識(Computer/Digital Forensics)
   - 數位鑑識類型與流程
@@ -15,7 +13,8 @@
 - 網站系統數位鑑識(Web Forensics)
 - 反鑑識技術分析(Anti-Forensics)
 - 數位鑑識(Windows Forensics)報告
-
+- Forensics CTF
+  - [picoCTF 2024 Forensics]() 
 # SANS Digital Forensics and Incident Response 課程
 - FOR308: Digital Forensics Essentials  US$8,275 USD
 - FOR500: Windows Forensic Analysis    6 days|US$8,275 USD
