@@ -10,15 +10,54 @@
 ## Linux鑑識分析常見的數位跡證(Artifacts)
 - 系統相關數位跡證(Artifacts)
   - OS Information and System configuration
+    - 系統資訊
+    - 系統資訊可讓鑑識人員深入了解系統上發生的活動，並有助於識別任何潛在的罪魁禍首
+    - 檢視作業系統版本：cat /etc/os-release
+    - 檢視網路設定
+      - cat /etc/network/interfaces
+      - ip address show
+    - 檢視主機名稱(Hostname)：cat /etc/hostname
+    - 檢視主機的Timezone：cat /etc/timezone
+    - 檢視DNS 設定：
+      - cat /etc/hosts
+      - cat /etc/resolv.conf
   - Network Interfaces
 - 定期執行的工作(Scheduled Tasks)
   - Startup Items
 - 檔案與檔案系統相關數位跡證(Artifacts)
 - 使用者相關數位跡證(Artifacts) | User Accounts and User activities
+  - 使用者帳戶Home目錄底下的數位跡證 資料來源：[Linux Forensics Artifacts in a Users home Directory](https://library.mosse-institute.com/articles/2022/07/linux-forensics-artifacts-in-a-users-home-directory/linux-forensics-artifacts-in-a-users-home-directory.html#linux-forensics-artifacts-in-a-users-home-directory)
+    - 建立使用者帳戶時，也會為該使用者建立一個home/目錄
+    - 在home/中有兩個隱藏目錄 .local/與.cache/。這兩個目錄中有許多子資料夾與有用資訊
+    - 最近使用的文件(recently used files)
+    - 已刪除的檔案/資料夾(deleted files/folders)
+    - 縮圖(thumbnails)
+  - GUI 應用程式的使用：使用頻率、上次使用時間戳(last used timestamp)
+    - 檔案/資料夾資訊：絕對路徑(absolute path)、上次使用的時間戳
 - 登入活動的紀錄[PAM身分驗證]：包含從GUI桌面登入、console登入、網路登入
 - bash/zsh History | 執行過的指令
 - 最近開啟的檔案(Recent Files) | Trash(資源回收桶)
 - 日誌相關數位跡證(Artifacts)(System Logs and Logfile analysis)
+- Linux稽核子系統與稽核日誌
+
+# Linux鑑識分析工具：
+- 擷取與成像(Imaging)工具
+  - 一般擷取與成像(Imaging)工具：dd |DC3DD| Guymager
+  - 記憶體擷取與成像(Imaging)工具:
+    - Acquire Volatile Memory Linux (AVML)
+    - Linux Memory Extractor (LiME) 
+- 分析工具：有許多(底下介紹以鑑識用途的Linux為主)
+  - SANS SIFT Workstation
+  - CAINE Linux
+  - Tsurugi Linux
+  - Kali linux (有部分工具,詳見2023 年版本 11-Forensics 工具)
+
+# Labs
+- 鑑識情境：某機關制定資安政策來規範員工，本案例是針對可疑的使用者活動違背機關資安政策的鑑識情境
+- 測試樣本：Hocrux.E01
+- 資料來源：Def Con 2019(Linux Forensics)
+- 鑑識工具：FTK Imager
+- 參考解答 https://www.jaiminton.com/Defcon/DFIR-2019/#category-linux-forensics
 
 # 參考書籍
 - 更多Linux鑑識分析常見的數位跡證(artifacts)與分析技術請參閱
