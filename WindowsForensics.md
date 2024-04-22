@@ -10,12 +10,33 @@
 - 13Cubed在YOUTUE有22部Introduction to Windows Forensics系列教學影片可提供學員進階學習
 - https://www.youtube.com/@13Cubed
 
+# 常用的Windows 數位跡證(Artifacts)
+- NTFS檔案系統的數位跡證(Artifacts)(詳述於前一章)
+- 記憶體的數位跡證(Artifacts)(詳述於後續章節)
+- 登錄檔(Registry)
+- Windows ShellBag
+- 資源回收桶(Recycle Bin)
+- 事件日誌(Event Log)
+- 捷徑(LNK Files)
+- Jump Lists
+- Prefetch Files
+- Windows 錯誤回報 (WER, Windows Error Reporting)
+- 遠端桌面協定快取(Remote Desktop Protocol (RDP) Cache)
+- ShimCache / AppCompatCache
+- Amcache
+- UserAssist
+- Shellbag
+- 更多Windows artifacts 請參閱 [Windows forensic artifacts guide](https://github.com/Psmths/windows-forensic-artifacts)
+
+
 # Windows Artifacts and tools
 - OpenText/Guidance Software EnCase(商業版軟體)
 - AccessData FTK(商業版軟體)
 - Magnet Forensics AXIOM(商業版軟體)
 - OSForensics(商業版軟體)
 - Autopsy/Sleuth Kit(免費軟體)
+
+# [SANS Windows Forensic Analysis](https://www.sans.org/posters/windows-forensic-analysis/)
 
 # FOR_LABS:
 - LABS_1:Imanging: FTK imager
