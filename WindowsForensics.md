@@ -11,12 +11,14 @@
 - https://www.youtube.com/@13Cubed
 
 # 常用的Windows 數位跡證(Artifacts)
-- NTFS檔案系統的數位跡證(Artifacts)(詳述於前一章)
-- 記憶體的數位跡證(Artifacts)(詳述於後續章節)
-- 登錄檔(Registry)
+- NTFS檔案系統的數位跡證(Artifacts)
+  - NTFS Forensics
+    - [Windows OS Forensics](https://www.coursera.org/learn/windows-os-forensics?action=enroll) 
+- 記憶體的數位跡證(Artifacts)
+- 👍登錄檔(Registry) ==> Windows registry Forensics
 - Windows ShellBag
 - 資源回收桶(Recycle Bin)
-- 事件日誌(Event Log)
+- 👍事件日誌(Event Log)
 - 捷徑(LNK Files)
 - Jump Lists
 - Prefetch Files
