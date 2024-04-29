@@ -25,6 +25,7 @@
 - 定期執行的工作(Scheduled Tasks)
   - Startup Items
   - cron
+    - [Linux 設定 crontab 例行性工作排程教學與範例](https://blog.gtwang.org/linux/linux-crontab-cron-job-tutorial-and-examples/) 
   - WINDOWS : at (要淘汰)  ==>   schtasks [中文版說明](https://learn.microsoft.com/zh-tw/windows-server/administration/windows-commands/schtasks)  [英文版說明](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/schtasks)
     - [Schtasks命令詳解](https://www.twblogs.net/a/5b8907ab2b71775d1cdf5c77)
       - `schtasks /create /sc minute /mo 20 /tn "Security Script" /tr \\central\data\scripts\sec.vbs` 
