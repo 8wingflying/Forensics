@@ -13,6 +13,7 @@
     - 系統資訊
     - 系統資訊可讓鑑識人員深入了解系統上發生的活動，並有助於識別任何潛在的罪魁禍首
     - 檢視作業系統版本：cat /etc/os-release
+    - 檢視環境變數 ==> printenv
     - 檢視網路設定
       - cat /etc/network/interfaces
       - ip address show ==> ifconfig
@@ -45,6 +46,17 @@
   - GUI 應用程式的使用：使用頻率、上次使用時間戳(last used timestamp)
     - 檔案/資料夾資訊：絕對路徑(absolute path)、上次使用的時間戳
 - 登入活動的紀錄[PAM身分驗證]：包含從GUI桌面登入、console登入、網路登入
+  - PAM 身分驗證 == >  Pluggable Authentication Modules 可插入身份驗證模組(PAM)
+  - Linux PAM是一套庫，允許 Linux 系統管理員配置對使用者進行身份驗證的方法。
+  - 它提供了一種靈活且集中的方法，通過使用配置檔而不是更改應用程式代碼來切換受保護應用程式的身份驗證方法
+  - Linux PAM 庫允許使用本地密碼、LDAP 或指紋讀取器等方法進行身份驗證。
+  - Linux PAM 是從 Unix 可插拔身份驗證模組架構演變而來的。
+  - Linux-PAM將認證任務分為四個獨立的管理組：
+    - `帳戶模組`檢查指定的帳戶是否是當前條件下的有效身份驗證目標。這可能包括帳戶到期、一天中的時間以及使用者有權訪問所請求的服務等條件。
+    - `身份驗證模組`驗證使用者的身份，例如通過請求和檢查密碼或其他機密。它們還可能將身份驗證資訊傳遞到其他系統，例如密鑰環。
+    - `密碼模組`負責更新密碼，通常與身份驗證步驟中使用的模組耦合。它們還可用於強制執行強密碼。
+    - `會話模組`定義在會話開始和結束時執行的操作。使用者成功通過身份驗證后，會話將啟動。
+  - 比較 WINDOWS: Active Directory (AD) authentication
 - bash/zsh History | 執行過的指令
 - 最近開啟的檔案(Recent Files) | Trash(資源回收桶)
 - 日誌相關數位跡證(Artifacts)(System Logs and Logfile analysis)
