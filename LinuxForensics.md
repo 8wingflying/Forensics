@@ -15,9 +15,9 @@
     - 檢視作業系統版本：cat /etc/os-release
     - 檢視網路設定
       - cat /etc/network/interfaces
-      - ip address show
+      - ip address show ==> ifconfig
     - 檢視主機名稱(Hostname)：cat /etc/hostname
-    - 檢視主機的Timezone：cat /etc/timezone
+    - 檢視主機的Timezone(時區)：cat /etc/timezone
     - 檢視DNS 設定：
       - cat /etc/hosts
       - cat /etc/resolv.conf
