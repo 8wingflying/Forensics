@@ -95,6 +95,8 @@
 - 更多Linux鑑識分析常見的數位跡證(artifacts)與分析技術請參閱
 - 實戰 Linux 系統數位鑑識 (Practical Linux Forensics: A Guide for Digital Investigators)
 - Bruce Nikkel 著 江湖海 譯碁峰資訊
+
+## 補充說明
 - Linux Authentication: PAM(Pluggable Authentication Modules) 
 ```
 PAM(Pluggable Authentication Modules)身分驗證學習資源
