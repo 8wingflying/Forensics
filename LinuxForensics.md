@@ -30,6 +30,11 @@
     - [Schtasks命令詳解](https://www.twblogs.net/a/5b8907ab2b71775d1cdf5c77)
       - `schtasks /create /sc minute /mo 20 /tn "Security Script" /tr \\central\data\scripts\sec.vbs` 
 - 檔案與檔案系統相關數位跡證(Artifacts)
+  - 檔案系統 ==> ext/ext2/ext3/ext4/......
+  - [Linux 的檔案權限](https://linux.vbird.org/linux_basic/centos7/0210filepermission.php)
+  - [Linux chmod命令](https://www.runoob.com/linux/linux-comm-chmod.html)
+    - chmod +x xxx.sh
+    - chmod 754 XXX.sh
 - 使用者相關數位跡證(Artifacts) | User Accounts and User activities
   - 使用者帳戶Home目錄底下的數位跡證 資料來源：[Linux Forensics Artifacts in a Users home Directory](https://library.mosse-institute.com/articles/2022/07/linux-forensics-artifacts-in-a-users-home-directory/linux-forensics-artifacts-in-a-users-home-directory.html#linux-forensics-artifacts-in-a-users-home-directory)
     - 建立使用者帳戶時，也會為該使用者建立一個home/目錄
