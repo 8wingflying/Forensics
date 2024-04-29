@@ -57,6 +57,12 @@
     - `密碼模組`負責更新密碼，通常與身份驗證步驟中使用的模組耦合。它們還可用於強制執行強密碼。
     - `會話模組`定義在會話開始和結束時執行的操作。使用者成功通過身份驗證后，會話將啟動。
   - 比較 WINDOWS: Active Directory (AD) authentication
+    - WINDOWS WORKGROUPS(工作權組) ==> SAM(Security Account Manager)
+    - WINDOWS AD(中央控管) ==> NTDS.DIT
+      - [Understanding NTDS.DIT: The Core of Active Directory](https://medium.com/@harikrishnanp006/understanding-ntds-dit-the-core-of-active-directory-faac54cc628a) 
+      - LAN Manager (LM)
+      - NT LAN Manager (NTLM)
+      - Kerberos protocol
 - bash/zsh History | 執行過的指令
 - 最近開啟的檔案(Recent Files) | Trash(資源回收桶)
 - 日誌相關數位跡證(Artifacts)(System Logs and Logfile analysis)
